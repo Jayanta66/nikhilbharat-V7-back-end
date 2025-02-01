@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.taskmanagement</groupId>
-	<artifactId>taskmanagement</artifactId>
+	<artifactId>nikhilbharat</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>taskmanagement</name>
-	<description>Taskmanagement</description>
+	<name>nikhilbharat</name>
+	<description>nikhilbharat</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -45,18 +45,21 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-	<!--
+
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-	-->
- <dependency>
-      <groupId>com.mysql</groupId>
-      <artifactId>mysql-connector-j</artifactId>
-      <scope>runtime</scope>
-    </dependency>
+		
+		<!-- 
+		
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+-->
 		
 <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
