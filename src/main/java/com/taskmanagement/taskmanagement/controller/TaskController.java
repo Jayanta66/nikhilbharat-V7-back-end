@@ -30,7 +30,7 @@ public class TaskController {
 	
 	@GetMapping("/")
 	public String home() {
-		return "Welcome to The Task Management Application";
+		return "Welcome to nikhilbharat";
 	}
 	
 	@PostMapping("/api/tasks")
