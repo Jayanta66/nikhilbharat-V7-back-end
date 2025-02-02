@@ -22,7 +22,8 @@ import com.taskmanagement.taskmanagement.model.Task;
 import com.taskmanagement.taskmanagement.repository.TaskRepository;
 
 @RestController
-@CrossOrigin("https://jayanta66.github.io/nikhilbharat-V7-front-end")
+//@CrossOrigin("https://jayanta66.github.io/nikhilbharat-V7-front-end")
+@CrossOrigin("https://jayanta66.github.io")
 public class TaskController {
 
 	@Autowired
