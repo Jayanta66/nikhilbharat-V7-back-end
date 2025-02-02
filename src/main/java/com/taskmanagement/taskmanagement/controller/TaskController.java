@@ -23,7 +23,7 @@ import com.taskmanagement.taskmanagement.repository.TaskRepository;
 
 @RestController
 //@CrossOrigin("http://localhost:3000")
-@CrossOrigin("https://jayanta66.github.io/nikhilbharat-V7-front-end/")
+@CrossOrigin("https://jayanta66.github.io/nikhilbharat-V7-front-end:3000")
 public class TaskController {
 
 	@Autowired
