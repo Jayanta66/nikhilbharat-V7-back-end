@@ -23,6 +23,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
 import jakarta.persistence.Table;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
@@ -40,6 +41,11 @@ public class Task {
 	String description ;
 	String status ;
 
+	@Lob
+    @Column(name = "image", length = Integer.MAX_VALUE)
+//    @Column(name = "Image", length = Integer.MAX_VALUE, nullable = true)
+    private byte[] image;
+	
 	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name = "createdAt")
 	Date createdAt ;

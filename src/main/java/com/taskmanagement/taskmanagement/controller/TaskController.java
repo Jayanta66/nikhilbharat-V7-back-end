@@ -23,7 +23,9 @@ import com.taskmanagement.taskmanagement.repository.TaskRepository;
 
 @RestController
 //@CrossOrigin("https://jayanta66.github.io")
-@CrossOrigin("https://tiptops.xyz")
+//@CrossOrigin("https://tiptops.xyz")
+//@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://67c539a50db6e400088c33d6--tiptops.netlify.app")
 public class TaskController {
 
 	@Autowired

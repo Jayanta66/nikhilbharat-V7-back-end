@@ -14,12 +14,12 @@ public interface TaskRepository extends JpaRepository<Task, Long> {
 
 //	String save(Long i);
 
-	@Query("SELECT t FROM Task t WHERE t.title = :title")
-	public Task getTitle(String title);
-	
+//	@Query("SELECT t FROM Task t WHERE t.title = :title")
+//	public Task getTitle(String title);
+//	
 //	Optional<Task> findTaskById(long id);
 	
-	@Query("SELECT t FROM Task t WHERE CONCAT(t.id, ' ',t.title, ' ', t.description, ' ', t.status, ' ', t.createdAt,' ', t.updatedAt) LIKE %?1%")
-	public List<Task> search(String keyword);
+//	@Query("SELECT t FROM Task t WHERE CONCAT(t.id, ' ',t.title, ' ', t.description, ' ', t.image,' ', t.status, ' ', t.createdAt,' ', t.updatedAt) LIKE %?1%")
+//	public List<Task> search(String keyword);
 
 }
